@@ -4,10 +4,10 @@
 
 <table class="table table-hover">
 	<tr>
-		<th>CATEGORY</th>
+		<!-- <th>CATEGORY</th> -->
 		<!-- <th></th>
 		<th></th> -->
-		<th>COURSE</th>
+		<th>SKILL</th>
 		<th>REMOVE</th>
 
 	</tr>
@@ -15,15 +15,15 @@
 
 <% @skills.each do |s| %>
 	<tr>
-		<td><%= s.category %></td>
+		<!-- <td><%# s.category %></td> -->
 		<!-- <th></th>
 		<th></th> -->
-		<td><%= s.course %></td>
+		<td><%= s.skill_name %></td>
 	
 		<td><%= button_to "delete", { action: "destroy", id: s.id}, {method: :delete, data:{confirm: "Are you sure?"}, :class => "myButton"} %></td>
 	</tr>
 
 	<% end %>
 </table>
-_
+
 </div>
