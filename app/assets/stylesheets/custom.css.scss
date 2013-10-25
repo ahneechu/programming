@@ -1,0 +1,133 @@
+@import 'bootstrap';
+/*@import 'bootstrap-responsive';*/
+
+$maincolor: gray;
+
+body{
+	background-color: black;
+	font-family: helvetica;
+	color: white;
+}
+
+.navbar{
+	margin: 0;
+
+}
+
+.navbar-right{
+	/*background-color: black;*/
+	padding-left: 300px;
+	padding-top: 10px;
+	margin: 0;
+}
+
+footer{
+	background-color: black;
+	margin: 0;
+}
+
+#container{
+	background-color: #eee;
+	width: 960px;
+	height: 470px;
+	/*margin: 0 auto;*/
+	
+}
+
+.jumbotron{
+	background-image: url('kids2.jpg');
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 10px;
+}
+
+
+
+#indexContainer{
+	background-color: #eee;
+	border: 1px solid gray;
+	margin: 0 auto;
+	width: 500px;
+	padding: 10px;
+
+	h1{
+		color: $maincolor;
+		text-align: center;
+	}
+
+	table{	
+		color: blue;
+	}
+
+	th{
+		color: navy;
+	}
+
+	tr{
+		color: $maincolor;
+		padding: 10px;
+	}
+
+	.myButton {
+	   border-top: 1px solid #96d1f8;
+	   background: #65a9d7;
+	   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+	   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+	   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+	   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+	   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+	   padding: 5px 10px;
+	   -webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+	   border-radius: 8px;
+	   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   box-shadow: rgba(0,0,0,1) 0 1px 0;
+	   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	   color: white;
+	   font-size: 14px;
+	   font-family: Helvetica, Arial, Sans-Serif;
+	   text-decoration: none;
+	   vertical-align: middle;
+	   padding: 10px;
+	   }
+	.button:hover {
+	   border-top-color: #28597a;
+	   background: #28597a;
+	   color: #ccc;
+	   }
+	.button:active {
+	   border-top-color: #1b435e;
+	   background: #1b435e;
+	   }
+}
+
+	
+
+#newContainer{
+	background-color: #eee;
+	border: 1px solid gray;
+	margin: 0 auto;
+	width: 500px;
+	padding: 10px;
+	color: gray;
+	/*margin: 15px;*/
+	/*background-color: orange;*/
+	h1{
+		color: black;
+	}
+}
+
+
+
+#newUser{
+	background-color: #eee;
+	border: 1px solid gray;
+	margin: 0 auto;
+	width: 500px;
+	color: #eee;
+}
+
+#authen{
+	background-color: white;
+}

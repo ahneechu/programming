@@ -1,0 +1,64 @@
+<div id="newUser" class= "container">
+
+<h1>New User Form</h1>
+
+<%= form_for @user, html: {class: "form-group col-lg-8" } do |u|  %>
+
+<form role="form">
+
+<p>
+    <%= u.label :name, "Name" %><br />
+    <%= u.text_field :name, class: "form-control", placeholder: "Name" %>
+</p>    
+
+<p>
+<%= u.label :address, "Address" %>
+<%= u.text_field :address, class: "form-control", placeholder: "Address" %>
+</p>
+
+<p>
+<%= u.label :phone, "Phone Number" %>
+<%= u.text_field :phone, class: "form-control", placeholder: "Phone Number" %>
+</p>
+
+<p>
+<%= u.label :age, "Age" %>
+<%= u.text_field :age, class: "form-control", placeholder: "Age" %>
+</p>
+
+<p>
+<%= u.label :gender, "Gender" %>
+<%= u.text_field :gender, class: "form-control", placeholder: "Gender" %>
+</p>
+
+<p>
+<%= u.label :interest, "Interest" %>
+<%= u.text_field :interest, class: "form-control", placeholder: "Interest" %>
+</p>
+
+<p>
+<%= u.label :email, "Email" %>
+<%= u.text_field :email, class: "form-control", placeholder: "Email" %>
+</p>
+
+<p>
+<%= u.label :password, "Password" %>
+<%= u.text_field :password, class: "form-control", placeholder: "Password" %>
+</p>
+
+<p>
+	<%= u.label :password_confirmation, "Confirm Password" %>
+	<%= u.text_field :password_confirmation, class: "form-control", placeholder: "Confirm Password" %>
+</p>
+
+<p>
+<%= u.submit "sign up" %>
+</p>
+
+<% end %>
+
+<p>
+User id: <%= session[:user_id] %>
+</p>
+
+</div>

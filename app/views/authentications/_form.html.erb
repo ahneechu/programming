@@ -1,0 +1,19 @@
+<!-- <div id="authen" class = "container">
+ -->
+<%= form_for User.new, {url:"/authentications", method:"post"} do |u| %>
+
+
+<%= u.label :email, "Email" %>
+<%= u.text_field :email, type: "email", placeholder: "Email" %>
+
+<%= u.label :password, "Password" %>
+<%= u.text_field :password, type: "password", placeholder: "Password" %>
+
+
+<%= u.submit "Sign in" %>
+
+
+
+
+<% end %>
+
