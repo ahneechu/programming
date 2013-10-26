@@ -1,0 +1,12 @@
+
+
+<% @categories.each do |c| %>
+	<%= c.category_name %>
+
+	<% c.skills.each do |s|%>
+		<%=s.skill_name %>
+
+<%# @categories.skills.each do |s| %>
+	<%# s.skill_name %>
+	<% end %>
+<% end %>

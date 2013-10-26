@@ -13,7 +13,7 @@ class SkillsController < ApplicationController
 	end
 
 	def create
-		@skill = Skill.create(params[:skill].permit(:category, :course))
+		@skill = Skill.create(params[:skill].permit(:skill_name, :skill_description))
 		redirect_to :action => "show", :id =>@skill._id
 	end
 
