@@ -17,8 +17,8 @@ ls = Category.create(category_name: 'Life Skills')
 	
 
 bs.skills.create(skill_name: 'Negotiations')
-bs.skills.create(skill_name: 'leadership development')
-bs.skills.create(skill_name: 'business finance')
+bs.skills.create(skill_name: 'Leadership Development')
+bs.skills.create(skill_name: 'Business Finance')
 bs.skills.create(skill_name: 'Sales')
 bs.skills.create(skill_name: 'Marketing')
 bs.skills.create(skill_name: 'Legal')

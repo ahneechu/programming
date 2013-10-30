@@ -1,9 +1,13 @@
+
 Programming::Application.routes.draw do
   root to: 'skills#home'
 
   resources :skills
   resources :users
   resources :categories
+  resources :mentors
+  resources :learners
+
   # resource :authentications
   
 

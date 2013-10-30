@@ -1,6 +1,13 @@
-<%= @category.category_name %>
+<div class="container">
 
-<% @category.skills.each do |s| %>
-<%= s.skill_name %>
+	<h1><%= @category.category_name %></h1>
 
-<% end %>
+
+	
+	<% @category.skills.each do |s| %>
+		<div><%= s.skill_name %></div>
+	
+
+	<% end %>
+
+</div>
